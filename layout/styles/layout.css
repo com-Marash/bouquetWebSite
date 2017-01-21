@@ -1,13 +1,4 @@
 @charset "utf-8";
-/*
-Template Name: Colossus
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
-File: Layout CSS
-*/
-
 @import url("fontawesome-4.3.0.min.css");
 @import url("custom.flexslider.css");
 @import url("framework.css");
@@ -59,7 +50,7 @@ File: Layout CSS
 ---------------------------------------------------------------------------------------------------------------*/
 .latest{display:block; width:100%; max-width:2000px; margin:0 auto;}
 .latest ul{}
-.latest ul li{display:block; float:left; width:20%; min-height:100%;}
+.latest ul li{display:block; float:left; width:33%; min-height:100%;}
 .latest ul li:first-child, .latest ul li:nth-child(5n+1){margin-left:-1px; clear:left;}
 
 .latest ul li figure{display:block; max-width:100%; border:solid; border-width:0 0 0 1px;}
@@ -388,3 +379,25 @@ table a, #comments a{background-color:inherit;}
 	.latest ul li figure img{width:100%;}
 	.latest ul li figure figcaption{padding:15px 30px;}
 }
+
+/* extra classes */
+
+.imageContainer{
+	width:100%;
+	height: 300px;
+	background-size: cover;
+    background-position: center;
+}
+.imageContainer.leftImage{
+	background-image: url(../../images/main/latest/01.jpg)
+}
+.imageContainer.middleImage{
+	background-image: url(../../images/main/latest/03.jpg)
+}
+.imageContainer.rightImage{
+	background-image: url(../../images/main/latest/02.jpg)
+}
+
+
+
+
