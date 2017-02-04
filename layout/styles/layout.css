@@ -3,6 +3,11 @@
 @import url("custom.flexslider.css");
 @import url("framework.css");
 
+@font-face{
+	font-family: 'Pacifico';
+	src: url('fonts/Pacifico-Regular.ttf')
+};
+
 /* Rows
 --------------------------------------------------------------------------------------------------------------- */
 .row1, .row1 a{}
@@ -403,6 +408,8 @@ table a, #comments a{background-color:inherit;}
 	position: absolute;
 	color: white;
 	font-size: 1em;
+	font-family: 'Pacifico';
+	text-shadow: 2px 2px 5px black;
 }
 
 @media (min-width:1200px) {
