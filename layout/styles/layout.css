@@ -362,6 +362,7 @@ table a, #comments a{background-color:inherit;}
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (min-width:978px) {
 	#header, #services, #cta, #breadcrumb, .container, #footer, #copyright{max-width:978px;}
+
 }
 
 
@@ -398,6 +399,30 @@ table a, #comments a{background-color:inherit;}
 	background-image: url(../../images/main/latest/02.jpg)
 }
 
+.sliderText{
+	position: absolute;
+	color: white;
+	font-size: 1em;
+}
 
-
+@media (min-width:1200px) {
+	.sliderText{
+		font-size: 3em;
+	}
+}
+@media (min-width:978px) and (max-width:1199px){
+	.sliderText{
+		font-size: 2.5em;
+	}
+}
+@media (min-width:700px) and (max-width:977px){
+	.sliderText{
+		font-size: 2em;
+	}
+}
+@media (min-width:500px) and (max-width:699px){
+	.sliderText{
+		font-size: 1.5em;
+	}
+}
 
